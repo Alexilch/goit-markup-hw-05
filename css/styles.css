@@ -129,9 +129,10 @@ button{
 }
 .adress-list{
     display: flex;
-    margin-left: auto;
+    margin-left: 305px;
 }
 .adress-item .menu-link{
+    padding: 0;
     color: var(--primary-text-color);
 }
 .menu{
