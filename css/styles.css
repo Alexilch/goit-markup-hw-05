@@ -444,9 +444,10 @@ button{
     position: relative;
     overflow: hidden;
 }
-.card:hover .card-overlay {
+.card-link:focus .card-overlay,
+.card-link:hover .card-overlay{
     transform: translatey(0);
-  }
+}
 .card-overlay{
     position: absolute;
     top: 0;
